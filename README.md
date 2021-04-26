@@ -14,7 +14,13 @@ Visit the [fedml Wiki Page](https://github.com/lucastliu/fedml/wiki) to learn mo
 
 "The OpenMV project is about creating low-cost, extensible, Python powered, machine vision modules and aims at becoming the "Arduino of Machine Vision" " - [OpenMV Homepage](https://openmv.io/)
 
+### FedML Applications
 
+We are interested in this device because it is a System-on-Chip all-in-one device capable of quickly servicing a variety of CV applications.
+
+It runs on an ARM Cortex M7, and is capable of handling image capture and processing on-device. It is extremely low power, and yet still powerful enough to run useful machine learning models, making it an ideal edge device candidate.
+
+For Federated Learning, this means that the device can perform inference without having to ever share captured data samples, or even needing to reveal the ML model details. This allows for elevated data privacy, and means that other devices need not understand ML details, and can simply use the shared results.
 
 ### Devices
 
